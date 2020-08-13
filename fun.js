@@ -1,5 +1,6 @@
 function convert1(){
     var x = document.getElementById("deci").value;
+    document.getElementById("deci").value = "";
     var len=x.toString().length;
     var num=Number(x);
     var b="";
@@ -17,6 +18,7 @@ function convert1(){
 }
 function convert2(){
     var x = document.getElementById("bi").value;
+    document.getElementById("bi").value="";
     var len=x.toString().length-1;
     var sum=0;
     console.log(x);
